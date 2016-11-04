@@ -1,11 +1,11 @@
 <html>
   <head>
-    <title> Title3 </title>
+    <title> Title4 </title>
   </head>
   <body>
     <h1> header tag</h1>
     <br />
-    N
+    <div id="mydiv"></div>
     <p>
       a paragraph tag
     </p>
@@ -25,7 +25,8 @@
     var answer2 = document.getElementById("myselect");
     alert(answer.value);
     alert(answer2.value);
-    }
+    var myDiv = document.getElementById("mydiv");
+    myDiv.innerHTML = answer.value + ":)";
     </script>
   </body>
 
